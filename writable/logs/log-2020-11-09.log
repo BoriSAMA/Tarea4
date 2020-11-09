@@ -1,0 +1,81 @@
+CRITICAL - 2020-11-09 15:36:06 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uwo\app\Controllers\login.php(11): CodeIgniter\Model->find('1')
+#6 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#7 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-09 15:36:48 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uwo\app\Controllers\login.php(11): CodeIgniter\Model->find('1')
+#6 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#7 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-09 15:37:01 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uwo\app\Controllers\login.php(11): CodeIgniter\Model->find('1')
+#6 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#7 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-09 15:40:34 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uwo\app\Controllers\login.php(11): CodeIgniter\Model->find('1')
+#6 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#7 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-09 15:41:19 --> Unknown column 'users.deleted_at' in 'where clause'
+#0 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\Model.php(398): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\uwo\app\Controllers\login.php(11): CodeIgniter\Model->find('1')
+#6 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#7 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-11-09 15:43:22 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\uwo\app\Controllers\login.php on line 13
+#0 C:\xampp\htdocs\uwo\app\Controllers\login.php(13): view('login', NULL)
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 15:44:16 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\uwo\app\Controllers\login.php on line 13
+#0 C:\xampp\htdocs\uwo\app\Controllers\login.php(13): view('login', NULL)
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-09 15:46:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\uwo\app\Controllers\login.php on line 13
+#0 C:\xampp\htdocs\uwo\app\Controllers\login.php(13): view('login', NULL)
+#1 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\login->index()
+#2 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#3 C:\xampp\htdocs\uwo\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\uwo\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
