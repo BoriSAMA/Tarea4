@@ -4,20 +4,28 @@ use CodeIgniter\Model;
 
 class UserModel extends Model
 {
-    protected $table      = 'users';
-    protected $primaryKey = 'id';
+        protected $table      = 'usuario';
+        protected $primaryKey = 'pkIdUsuario';
 
-    protected $returnType     = 'array';
-    protected $useSoftDeletes = false;
+        protected $returnType = 'array';
+        protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['name', 'email'];
+        protected $allowedFields = ['correoUsuario', 'claveUsuario'];
+        /*protected $table      = 'users';
+        protected $primaryKey = 'id';
 
-    protected $useTimestamps = false;
-    protected $createdField  = 'created_at';
-    protected $updatedField  = 'updated_at';
-    protected $deleted  = 'deleted';
+        protected $returnType = 'array';
+        protected $useSoftDeletes = false;
+*/
+        /*protected $allowedFields = ['name', 'email'];
 
-    protected $validationRules    = [];
-    protected $validationMessages = [];
-    protected $skipValidation     = false;
+        protected $useTimestamps = false;
+        protected $createdField  = 'created_at';
+        protected $updatedField  = 'updated_at';
+
+        protected $validationRules    = [];
+        protected $validationMessages = [];
+        protected $skipValidation     = false;*/
 }
+
+?>
