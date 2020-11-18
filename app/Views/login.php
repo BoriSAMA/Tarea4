@@ -1,32 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <title>Iniciar sesion</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="pets, social media, social network" />
     <link href="public/css/login.css" rel="stylesheet" />
     <link href="public/css/fontawesome-all.css" rel="stylesheet"/>
+    <link href="public/css/structure.css" rel="stylesheet" />
 </head>
-<body id="main" class="fade">
+
+<body id="main">
 		<h1>PetBook</h1>
 		<div class=" w3l-login-form">
 		    <h2>Iniciar sesion</h2>
-		    <form action="#" method="POST">
+		    <form action="<?php echo site_url('Home/iniciarSesion');?>" method="POST">
 
 		        <div class=" w3l-form-group">
-		            <label>Usuario:</label>
+		            <label>Correo:</label>
 		            <div class="group">
 		                <i class="fas fa-user"></i>
-		                <input type="text" class="form-control" placeholder="Usuario" required="required" />
+		                <input type="text" class="form-control" id="email" name="email" placeholder="Correo" required="required" />
 		            </div>
 		        </div>
 		        <div class=" w3l-form-group">
 		            <label>Contraseña:</label>
 		            <div class="group">
 		                <i class="fas fa-unlock"></i>
-		                <input type="password" class="form-control" placeholder="Contraseña" required="required" />
+		                <input type="password" class="form-control" id="clave" name="clave" placeholder="Contraseña" required="required" />
 		            </div>
 		        </div>
 		        <div class="forgot">
@@ -35,10 +30,22 @@
 		        </div>
 		        <button type="submit">Iniciar sesion</button>
 		    </form>
-		    <p class=" w3l-register-p">No tiene cuenta?<a href="register.php" class="register"> Registrarse</a></p>
+		    <p class=" w3l-register-p">No tiene cuenta?<a href="<?php echo site_url('Home/registerView');?>" class="register"> Registrarse</a></p>
 		</div>  
 
-	<script type="text/javascript" src="public/js/login.js"></script>
 </body>
 
-</html>
+<script>
+    var slideIndex = 0;
+    var bg = "bg_login";
+    var slidesNumber = 3;
+    showSlides();
+
+    function showSlides() {
+        slideIndex++;
+        if (slideIndex > slidesNumber) {slideIndex = 1}    
+            document.getElementById('main').style.background = "url(public/img/bg_login" + slideIndex +".jpg) no-repeat 0px 0px"; 
+            document.getElementById('main').style.backgroundSize = "cover";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+</script>

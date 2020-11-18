@@ -1,3 +1,4 @@
+
 <section class="my-pets-content my-3 mx-3">
 	<div class="container">
 		<h4>Mis mascotas</h4>
@@ -12,13 +13,24 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td>Katarina</td>
-					<td>Perro</td>
-					<td>Mestiza</td>
-					<td>xx/xx/xxxx</td>
-					<td>xx/xx/xxxx</td>
-				</tr>
+				<?php
+					if(isset($mascotas)){
+						$filas = '';
+						foreach ($mascotas as $key) {
+						$filas .= "<tr>";
+								$filas .= "<td>".$key['nombreMascota']."</td>";
+								$filas .= "<td>".$key['tipoMascota']."</td>";
+								$filas .= "<td>".$key['razaMascota']."</td>";
+								$filas .= "<td>".$key['fechaUltimaVacuna']."</td>";
+								$filas .= "<td>".$key['fechaAdopcion']."</td>";
+						$filas .= "</tr>";
+						}
+						echo $filas;
+					}
+
+                    
+                    
+                ?>
 			</tbody>
 		</table>
 	</div>
